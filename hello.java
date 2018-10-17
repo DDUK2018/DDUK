@@ -1,6 +1,6 @@
 class hello 
 {
- public static void main(string argv[]){
+ public static void main(String argv[]){
  System.out.println("hello");
 }
 }
