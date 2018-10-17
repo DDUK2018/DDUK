@@ -2,6 +2,6 @@ class hello
     {
         public static void main (String argv[]){
             System.out.println("hello!");
-	System.out.println("pardoje");
+	System.out.println("my name is park doje");
         };
     };
