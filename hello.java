@@ -2,6 +2,6 @@ class hello
     {
         public static void main (String argv[]){
             System.out.println("hello!");
-	System.out.println("冠档力");
+	System.out.println("冠档力 必区");
         };
     };
