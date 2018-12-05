@@ -5,9 +5,6 @@ class hello
             System.out.println("My username is  Redping");
             System.out.println("My name is park do je");
             System.out.println("My name is Minsu");
-            System.out.println("My name is Min");
-            System.out.println("My name is Min");
-            System.out.println("My name is Min");
             
             
         }
