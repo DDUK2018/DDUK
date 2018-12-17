@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="경상대학교"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="DDUK"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/led1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/loff"
+                android:layout_margin="15dp"/>
+            <ImageView
+                android:id="@+id/led2"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/loff"
+                android:layout_margin="15dp"/>
+            <ImageView
+                android:id="@+id/led3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/loff"
+                android:layout_margin="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            //전등1
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimary"
+                android:layout_margin="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="전등1"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="전등 ON/OFF"
+                    android:textColor="#ffffff"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+                <Button
+                    android:id="@+id/deep_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="생활패턴보기"
+                    android:textColor="#ffffff"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            //전등2
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimary"
+                android:layout_margin="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="전등2"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="전등 ON/OFF"
+                    android:textColor="#ffffff"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="생활패턴보기"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+            전등3
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimary"
+                android:layout_margin="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="전등3"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="전등 ON/OFF"
+                    android:textColor="#ffffff"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="생활패턴보기"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="딥러닝 ON/OFF"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"/>
+
+            <Switch
+                android:id="@+id/deep_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
